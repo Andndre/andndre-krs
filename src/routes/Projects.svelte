@@ -7,6 +7,9 @@
 	import { Badge } from "$lib/components/ui/badge";
 	import Button from "$lib/components/ui/button/button.svelte";
 	import type { CarouselAPI } from "$lib/components/ui/carousel/context.js";
+	import { toast } from "svelte-sonner";
+	import { Toaster } from "$lib/components/ui/sonner";
+	
   let api: CarouselAPI;
   let current = 0;
   let count = 0;
@@ -14,12 +17,16 @@
     count = api.scrollSnapList().length;
     current = api.selectedScrollSnap() + 1;
     api.on("select", () => {
-      console.log("current");
       current = api.selectedScrollSnap() + 1;
+			if (current === count) {
+				toast("Anda telah sampai di akhir project!")
+			}
     });
   }
 
 </script>
+
+<Toaster />
 
 <Container>
 	<section class="w-full" id="projects">
@@ -32,12 +39,12 @@
 		opts={{
 			align: "center"
 		}}
-		class="w-full lg:px-12 px-8"
+		class="w-full lg:px-12 px-4"
 	>
 		<Carousel.Content>
 			{#each projects as project}
 				<Carousel.Item class="md:basis-1/2 lg:basis-1/3">
-					<div class="p-1">
+					<div class="p-1 select-none">
 						<Card.Root>
 							<Card.Content class="contents"
 							>
@@ -61,8 +68,8 @@
 				</Carousel.Item>
 			{/each}
 		</Carousel.Content>
-		<Carousel.Previous />
-		<Carousel.Next />
+		<Carousel.Previous class="ml-8" />
+		<Carousel.Next class="mr-8" />
 	</Carousel.Root>
 	<div class="py-2 text-center text-sm text-muted-foreground">
     Slide {current} of {count}

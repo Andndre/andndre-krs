@@ -46,7 +46,7 @@
 			<div class="lg:w-5/6 flex mx-auto items-end">
 				<div class="text-left flex-[3]">
 					<h1 class="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-						Hello, world! <br />Nama saya <span class="text-blue-500 dark:text-white">Andre.</span>
+						Hello, world! <br />Nama saya <span class="text-blue-500 dark:text-blue-300">Andre.</span>
 					</h1>
 					<p class="mt-8 text-gray-700 dark:text-gray-300 text-sm">
 						Saya mahasiswa Undiksha jurusan Teknik Informatika

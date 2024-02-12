@@ -1,7 +1,5 @@
 <script lang="ts">
-
-	import Container from "./Container.svelte";
-
+	import Container from './Container.svelte';
 </script>
 
 <footer class="py-20 md:py-40">
@@ -13,7 +11,10 @@
 				>
 					<ul role="list" class="space-y-8">
 						<li>
-							<a href="https://github.com/Andndre" class="flex items-center space-x-3 transition hover:text-primary">
+							<a
+								href="https://github.com/Andndre"
+								class="flex items-center space-x-3 transition hover:text-primary"
+							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									fill="currentColor"
@@ -28,7 +29,10 @@
 							</a>
 						</li>
 						<li>
-							<a href="https://www.youtube.com/@andndre/videos" class="flex items-center space-x-3 transition hover:text-primary">
+							<a
+								href="https://www.youtube.com/@andndre/videos"
+								class="flex items-center space-x-3 transition hover:text-primary"
+							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									fill="currentColor"
@@ -43,7 +47,10 @@
 							</a>
 						</li>
 						<li>
-							<a href="https://instagram.com/g.ndre" class="flex items-center space-x-3 transition hover:text-primary">
+							<a
+								href="https://instagram.com/g.ndre"
+								class="flex items-center space-x-3 transition hover:text-primary"
+							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									fill="currentColor"
@@ -59,14 +66,16 @@
 						</li>
 					</ul>
 				</div>
-				<div
-					class="m-auto mt-16 w-10/12 space-y-6 text-center sm:mt-auto sm:w-5/12 sm:text-left"
-				>
+				<div class="m-auto mt-16 w-10/12 space-y-6 text-center sm:mt-auto sm:w-5/12 sm:text-left">
 					<span class="block text-gray-500 dark:text-gray-400"
-						>Halaman ini dibuat hanya untuk pemenuhan syarat KRS, jika Anda ingin melihat personal web yang menunjukkan hasil kerja saya di luar perkuliahan, sayangnya saya belum membuat nya. Untuk sekarang, Anda bisa melihat project yang saya publikasikan di akun github saya</span
+						>Halaman ini dibuat hanya untuk pemenuhan syarat KRS, jika Anda ingin melihat personal
+						web yang menunjukkan hasil kerja saya di luar perkuliahan, Anda bisa melihat project
+						yang saya publikasikan di akun github saya</span
 					>
 
-					<span class="block text-gray-500 dark:text-gray-400">Agung Andre &copy; <span id="year"></span></span>
+					<span class="block text-gray-500 dark:text-gray-400"
+						>Agung Andre &copy; <span id="year"></span></span
+					>
 
 					<span class="flex justify-between text-gray-600 dark:text-white">
 						<a href="#" class="font-medium">Terms of Use </a>

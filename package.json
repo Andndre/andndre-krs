@@ -37,7 +37,9 @@
 		"clsx": "^2.1.0",
 		"embla-carousel-svelte": "^8.0.0-rc22",
 		"lucide-svelte": "^0.324.0",
+		"mode-watcher": "^0.2.1",
 		"svelte-highlight": "^7.6.0",
+		"svelte-sonner": "^0.3.17",
 		"tailwind-merge": "^2.2.1",
 		"tailwind-variants": "^0.2.0"
 	}
