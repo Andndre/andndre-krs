@@ -1,0 +1,68 @@
+[
+	{
+		"name": "Project Rakit Komputer",
+		"semester": 1,
+		"url": "https://youtu.be/ZQIgf5V3DJY?si=fc1WjXZiRXXXlZla",
+		"tags": ["tugas"]
+	},
+	{
+		"name": "Video Pengajaran Tri Hita Karana",
+		"semester": 2,
+		"url": "https://youtu.be/kRvW5NuRbFY?si=44TaHYRlEoA7fWC2",
+		"tags": ["tugas", "mpk"]
+	},
+	{
+		"name": "Talk About Yourself",
+		"semester": 2,
+		"url": "https://youtu.be/CqS6uFHqrEQ?si=JdusHDEBjKdxzZdv",
+		"tags": ["tugas", "mpk"]
+	},
+	{
+		"name": "Implementasi Teori Demokrasi",
+		"semester": 2,
+		"url": "https://youtu.be/jcubtlQyfk0?si=_XRZf_WEGqVXqh3W",
+		"tags": ["tugas", "mpk"]
+	},
+	{
+		"name": "Video Pembelajaran Pemrograman Dinamis",
+		"semester": 3,
+		"url": "https://youtu.be/ee9lNiJs5FQ?si=siirGdlNBByVsUO5",
+		"tags": ["tugas"]
+	},
+	{
+		"name": "Cara Install OS di Virtual Box",
+		"semester": 3,
+		"url": "https://youtu.be/irwlB389Qv8?si=6cs0JgCLVLq7Fji_",
+		"tags": ["tugas"]
+	},
+	{
+		"name": "Gemastik Software Development",
+		"semester": 3,
+		"url": "https://youtu.be/qK0JxIv8uec?si=20ygCOqOqmX7aUeQ",
+		"tags": ["lomba"]
+	},
+	{
+		"name": "Robotik Kasus LED",
+		"semester": 3,
+		"url": "https://youtu.be/Jtq68g6eK88?si=mkXNvhNiTHq7fnmr",
+		"tags": ["tugas"]
+	},
+	{
+		"name": "Film Pendek - Movie Night 2023",
+		"semester": 3,
+		"url": "https://drive.google.com/file/d/17svJz7YB8RVZkXPLDtFHc4lOjbmgV3hu/view?usp=sharing",
+		"tags": ["tugas"]
+	},
+	{
+		"name": "Website Pesan Makanan Online",
+		"semester": 3,
+		"url": "https://github.com/Andndre/Vi-Food-Id",
+		"tags": ["tugas"]
+	},
+	{
+		"name": "More...",
+		"semester": 0,
+		"url": "https://github.com/Andndre",
+		"tags": ["more"]
+	}
+]
