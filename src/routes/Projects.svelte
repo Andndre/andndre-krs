@@ -18,12 +18,12 @@
     current = api.selectedScrollSnap() + 1;
     api.on("select", () => {
       current = api.selectedScrollSnap() + 1;
-			if (current === count) {
-				toast("Anda telah sampai di akhir project!")
-			}
     });
   }
-
+	
+	$: if (current === count) {
+		toast("Anda telah sampai di akhir project!")
+	}
 </script>
 
 <Toaster />
